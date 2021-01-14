@@ -1,0 +1,27 @@
+body {
+    background-color: cadetblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: medium;
+    font-size-adjust: none;
+}
+
+h1 {
+    color:white;
+    font-size: 16px;
+    border-bottom-width: thick;
+    border-bottom-style: dotted;
+    border-bottom-color: red;
+
+}
+
+a:hover {
+    background-color: yellow;
+  }
+
+figcaption {
+    background-color: cadetblue;
+    color: white;
+    font-style: italic;
+    padding: 2px;
+    text-align: right;
+  }
