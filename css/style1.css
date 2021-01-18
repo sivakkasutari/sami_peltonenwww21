@@ -10,39 +10,33 @@ body {
 .wrapper {
     width: 100%;
     max-width: 2560px;
-    margin: 0 auto;   
-}
-
-.wrapper1 {
-    width: 100%;
-    max-width: 2560px;
     margin: 0 auto;
 }
 
-.wrapper2 {
+.wrapper1 {
     display: flex;
     color: gainsboro;
-    text-align: start;
+    text-align:justify;
 }
 
-.flex-container {
-     display: flex; 
-     background-color: #fff;
-     flex-wrap: wrap-reverse;
-}
-
-.box {
+.heading {
     height: 100px;
     flex: 1 0 200px; /* incorporates flex-grow, flex-shrink, flex-basis */
-}
-
-.one {
     background: chocolate;
-    text-align: center;
     color: wheat;
+    text-align: center;
 }
 
-.center {
+.boxleft {
+    flex: 1 1 500px;
+    
+}
+
+.boxcenter {
+    flex: 1 1 1000px;
+}
+
+.boxright {
     flex: 1 1 500px;
 }
 
@@ -67,6 +61,11 @@ nav a {
 nav a:hover{
     background-color: #555;
 }
+
+table, tr, td, th{
+    border:white 1px solid;
+    } 
+
 
 /* social menu base styles */
 
